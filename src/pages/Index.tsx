@@ -20,9 +20,12 @@ const Index = () => {
         {/* Header */}
         <div className="bg-gradient-mountain text-white p-8 rounded-t-2xl text-center shadow-adventure">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">
-            🏍️ Motorradtour Italien
+            🏍️ MotoGRAL Italien Tour 2025
           </h1>
-          <p className="text-lg opacity-90">
+          <p className="text-lg opacity-90 mb-2">
+            26. Juli - 3. August 2025
+          </p>
+          <p className="text-base opacity-80">
             Detaillierter Tourenplan mit allen Etappen und Highlights
           </p>
         </div>
