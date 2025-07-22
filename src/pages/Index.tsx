@@ -3,6 +3,8 @@ import { Button } from "@/components/ui/button";
 import { TourCard } from "@/components/TourCard";
 import { PassTable } from "@/components/PassTable";
 import { AccommodationSection } from "@/components/AccommodationSection";
+import { WeatherCard } from "@/components/WeatherCard";
+import { PassStatusCard } from "@/components/PassStatusCard";
 import { tourData } from "@/data/tourData";
 
 const Index = () => {
@@ -58,6 +60,16 @@ const Index = () => {
                 isInitiallyExpanded={index === 0} // First day expanded by default
               />
             ))}
+          </div>
+
+          {/* Weather Forecast */}
+          <div className="mb-12">
+            <WeatherCard />
+          </div>
+
+          {/* Pass Status Live */}
+          <div className="mb-12">
+            <PassStatusCard />
           </div>
 
           {/* Pass Information */}
